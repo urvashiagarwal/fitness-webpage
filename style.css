@@ -1,0 +1,417 @@
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body-bg {
+    background-image: url('fitness.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 753px;
+
+    margin-top: 0px;
+    color: white;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header  */
+.header {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    /* top: 10px; */
+}
+
+.left div {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: orange;
+    font-weight: bold;
+
+}
+
+#logo {
+    width: 50px;
+    margin: 0 49px;
+    filter: invert(80%);
+}
+
+/* #logo{
+   width: 100px;
+   height: 50px;
+   overflow: hidden;
+   
+} */
+.mid {
+    display: block;
+    margin: 0px auto;
+    width: 44%;
+    left: 40px;
+}
+
+.mid a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 25px;
+    font-size: 25px;
+}
+
+.mid a:hover,
+.mid a.active {
+    text-decoration: underline;
+    color: orange;
+    font-size: 27px;
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    /* top: 30px; */
+    display: inline-block;
+    top: 30px;
+
+}
+
+.btns {
+    /* width: 50px; */
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin: 0px 10px;
+    border: 2px solid rgb(173, 123, 30);
+    padding: 3px 20px;
+    border-radius: 30px;
+
+}
+
+.btns:hover {
+    border-color: rgb(223, 197, 150);
+    font-size: 20px;
+
+}
+
+/* Hero Banner */
+.hero {
+    width: 500px;
+    height: 300px;
+    /* border: 2px solid black; */
+    text-align: left;
+    padding: 50px;
+    margin: 100px 50px 100px 100px;
+    float: right;
+
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: 550;
+    text-align: left;
+
+}
+
+.register {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/* Welcome */
+.welcome-page {
+    padding: 30px;
+    color: #000000;
+    text-align: center;
+    position: relative;
+}
+
+#logo1 {
+    width: 100px;
+    height: 100px;
+}
+
+.welcome-div {
+    background-color: #ffffff;
+    padding-top: 80px;
+}
+
+#welcome-img-pic {
+    width: 100%;
+    height: 100%;
+}
+
+#welcome-des {
+    text-align: left;
+}
+
+.des1 {
+    margin-bottom: 30px;
+}
+
+.des1 p {
+    width: 500px;
+}
+
+.explore {
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid rgb(231, 146, 93);
+    width: 200px;
+    color: white;
+    background-color: rgb(231, 146, 93);
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+/* About-us */
+.about-us {
+    background-image: url("about-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center 30%;
+    margin-top: 20px;
+    height: 400px;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.about-us h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+.about-us p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.ab-types {
+    padding: 70px;
+}
+
+.ab-types-card {
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#ab-logo {
+    width: 80px;
+}
+
+.ab-types-card h3 {
+    margin: 40px 0 15px 0;
+}
+
+.ab-types-card p {
+    /* padding: 20px; */
+}
+
+/* what we do  */
+.what-we-do {
+    background-image: url("sport-wellbeing-active-lifestyle-concept-smiling-calm-relaxed-fitness-girl-woman-sportswe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: left 30%;
+    background-clip: content-box;
+}
+
+.what-we-do-text {
+    padding-top: 6%;
+}
+
+.progress {
+    margin-bottom: 25px;
+}
+
+.what-we-do-text h2 {
+    margin-bottom: 15px;
+}
+
+.our-trainer,
+.pp-title {
+    text-align: center;
+    padding: 90px 30px 30px 30px;
+}
+
+/* Our Yoga Trainer */
+
+
+.trainer-card {
+    text-align: center;
+    padding: 20px;
+}
+
+#trainer-pic {
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+    height: 150px;
+}
+
+.trainer-card p {
+    padding: 10px 40px;
+}
+
+.trainer-card i {
+    background-color: rgb(241, 241, 229);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+.trainers {
+    padding-bottom: 30px;
+}
+
+.pp {
+    background-color: rgb(231, 241, 233);
+}
+
+.pp-cards {
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow: 0px 8px 10px rgba(72, 105, 114, 0.15);
+    margin-bottom: 70px;
+}
+
+.begginer,
+.intermediate,
+.advanced,
+.professional {
+    height: 160px;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.price-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 40px;
+    background-color: #fff;
+    z-index: 1;
+    top: calc(-50px);
+    margin: -71px auto 30px;
+    box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+}
+
+.begginer {
+    background-color: rgb(184, 208, 201);
+}
+
+.intermediate {
+    background-color: rgb(170, 203, 193);
+}
+
+.advanced {
+    background-color: rgb(153, 188, 177);
+}
+
+.professional {
+    background-color: rgb(139, 179, 167);
+}
+
+.pp-details {
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+
+.pp-button {
+    border-radius: 40px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 3px solid rgb(67, 120, 120);
+    background-color: #ffffff;
+    color: rgb(67, 120, 120);
+    font-weight: bold;
+}
+
+.price-circle {
+    color: rgb(80, 80, 80);
+
+}
+
+.price-circle h3 {
+    margin: 0;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.price-circle p {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Upcoming-events*/
+.event-title {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.event-title h1 {
+    text-transform: uppercase;
+}
+
+.event-pic {
+    background-image: url("woman-doing-yoga-roof-skyscraper-big-city.jpg");
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.upcoming-events img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.event-1 {
+    border-radius: 20px;
+    box-shadow: 0 2px 3px rgba(72, 105, 114, 0.15);
+    margin: 0 0px 20px 10px;
+}
+
+.event-2 {
+    border-radius: 20px;
+    box-shadow: 0 2px 3px rgba(72, 105, 114, 1);
+    margin: 10px 0px 20px 10px;
+}
+
+.event-3 {
+    border-radius: 20px;
+    box-shadow: 0 2px 3px rgba(72, 105, 114, 0.15);
+    margin: 10px 0px 0 10px;
+}
+.event-list{
+    padding-left: 30px;
+}
